@@ -1,6 +1,6 @@
-#ADDING NEW FIELD FROM SALESFORCE
+# ADDING NEW FIELD FROM SALESFORCE
 
-##STEPS
+## STEPS
 * you have to specify params:
 ```
   dwhTable="sf.asset"
@@ -181,5 +181,5 @@ so the result will be
 , ("pledgeeleasedassetpicklist__c", "string", "pledgee_leased_asset_picklist__c", "string")
 ```
 
-###IMPORTNANT NOTE
+### IMPORTNANT NOTE
 The toS3Job and to RedshiftJob must be latest version
